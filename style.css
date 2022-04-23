@@ -1,0 +1,114 @@
+.nav-bar{
+    color: #f1f1f1;
+    display: flex;
+    justify-content:space-between;
+    background-color: darkslategrey;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+li{
+    font-size:16px;
+    display:flex;
+    padding-right: 30px;
+    align-items: center;
+}
+li:hover{
+    color: #3e8e41;
+   
+}
+.top-p{
+    font-style: italic;
+    font-size: 25px;
+    margin-left: 40px;
+    color: red;
+}
+.img-1{
+    width:70px;
+    height: 70px;
+    padding-left:30px;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 16px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /* section-1-page */
+  .home-page{
+      padding-top: 45px;
+      padding-left: 155px;
+      
+  }
+  p{
+      margin: 5px;
+      margin-left: 10px;
+      color: grey;
+  }
+ h4{
+     text-align: center;
+     margin: 0;
+     left: 0;
+ }
+ .icons{
+     text-align: center;
+ }
+  .div1{
+      display:inline-block;
+      margin: 35px;
+      width: 200px;  
+      height: 200px;
+      border:  1px;
+      box-shadow:  5px 5px 15px grey;
+      /* text-align: center; */
+  }
+  .a{
+      padding-left: 50px;
+  }
